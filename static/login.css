@@ -1,0 +1,49 @@
+body{
+	background-color: #048cfc;
+	text-align: center;
+
+}
+#h1{
+    color: white;
+    font-family:'Courier New', monospace;
+	font-size: 1.8em;
+	font-weight: 900;
+	margin: 20px;
+}
+
+input{
+	width: 300px;
+	height: 50px;
+	margin: 50px;
+	border: none;
+	border-radius: 10px;
+	font-family:'Courier New', monospace;
+	text-align: center;
+	size: 1.3em;
+}
+
+input:focus {
+	border: solid 5px #00FFCE;
+	outline: none;
+}
+
+#search {
+	font-size: 1.2em;
+	font-family: 'Courier New', monospace;
+	font-weight: 900;
+	color: black;
+	width: 200px;
+}
+
+#search:hover {
+	background-color: #1bd279;
+	cursor: pointer;
+}
+
+.create-account-label{
+	color: white;
+    font-family:'Courier New', monospace;
+	font-size: 1.8em;
+	font-weight: 900;
+	margin: 20px;
+}

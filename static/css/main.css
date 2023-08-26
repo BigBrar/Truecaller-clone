@@ -1,0 +1,49 @@
+body{
+	background-color: #048cfc;
+	text-align: center;
+
+}
+
+p{
+	color: white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1.4em;
+	font-weight: 900;
+	margin: 20px;
+
+}
+
+img{
+	margin: 60px 0 30px 0;
+	width: 250px;
+
+}
+
+input{
+	width: 300px;
+	height: 50px;
+	margin: 20px;
+	border: none;
+	border-radius: 10px;
+	font-family:'Courier New', monospace;
+	text-align: center;
+	size: 1.3em;
+}
+
+input:focus {
+	border: solid 5px #00FFCE;
+	outline: none;
+}
+
+#search {
+	font-size: 1.2em;
+	font-family: 'Courier New', monospace;
+	font-weight: 900;
+	color: black;
+	width: 200px;
+}
+
+#search:hover {
+	background-color: #1bd279;
+	cursor: pointer;
+}

@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block stylesheet %}
+<link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+{% endblock stylesheet %}
+{% block title %}Truecaller{% endblock title %}
+
+{% block body %}
+    <body>
+      <header class="site-header">
+      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+        <img src="{{ url_for('static', filename='truecaller.png') }}">
+        <br>
+        <form action="search" method="post">
+        {% if alert %}
+            <p>Alert: {{ alert }}</p>
+        {%endif%}
+        {% if name %}
+            <p>Name: {{ name }}</p>
+        {% endif %}
+        {% if carrier %}
+            <p>Carrier: {{ carrier }}</p>
+        {% endif %}
+        {% if email %}
+            <p>Email: {{ email}}</p>   
+        {% endif %}
+
+        <br>
+        <input type="text" name="name_input">
+        <br>
+        <input type="submit" value="SEARCH" id="search">
+      </form>
+    </body>
+{% endblock body %}
+
+
